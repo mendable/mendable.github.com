@@ -5,13 +5,12 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Mendable.com</title>
- <link href="http://www.mendable.com/atom.xml" rel="self"/>
+ <link href="http://feeds.feedburner.com/mendable" rel="self"/>
  <link href="http://www.mendable.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://www.mendable.com/</id>
  <author>
    <name>Jason Lambert</name>
-   <email>jason@mendable.com</email>
  </author>
 
  {% for post in site.posts %}
