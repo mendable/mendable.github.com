@@ -183,8 +183,9 @@ div.title {
 }
 
 h1.post-title {
-  font-size: 130%;
-  color: #AA0000;
+  font-size: 140%;
+  color: #292929;
+  text-decoration: underline;
 }
 
   /* standard */
