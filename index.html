@@ -1,0 +1,29 @@
+---
+layout: default
+title: Mendable.com - Jason Lambert
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Projects - Past and Present</h1>
+  <ul class="posts">
+    <li>Project-S: E-Commerce Startup with 2 other great folks. Exciting!!</li>
+    <li><a href="http://www.chatup.com/">ChatUp.com</a> Online Dating Website built for fun.</li>
+    <li><a href="http://www.boomkat.com/">Boomkat.com</a> Independent Online Music (Day Job - RoR Developer)</li>
+    <li><a href="http://www.linuxforums.org/">LinuxForums.org</a> Built a kick ass Linux community. (Sold 2005)</li>
+  </ul>
+
+  <h1>Recent Reading</h1>
+  <div class="images">
+    <a href="http://www.amazon.co.uk/dp/B004C04QE0/"><img src="http://ecx.images-amazon.com/images/I/51j2%2BjeZpYL._SS500_.jpg" /></a>
+    <a href="http://www.amazon.co.uk/dp/B0010SEN1S/"><img src="http://ecx.images-amazon.com/images/I/51le34PTjxL._SS500_.jpg" /></a>
+    <a href="http://www.amazon.co.uk/dp/0262533057/"><img src="http://i.walmartimages.com/i/p/97/80/26/20/33/9780262033848_500X500.jpg" /></a>
+  </div>
+
+</div>
