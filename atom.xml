@@ -11,7 +11,7 @@ layout: nil
  <id>http://www.mendable.com/</id>
  <author>
    <name>Jason Lambert</name>
-   <email>contact@mendable.com</email>
+   <email>jason@mendable.com</email>
  </author>
 
  {% for post in site.posts %}
